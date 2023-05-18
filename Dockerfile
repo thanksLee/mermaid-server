@@ -79,3 +79,4 @@ CMD ["./app", "--mermaid=./node_modules/.bin/mmdc", "--in=./in", "--out=./out", 
 
 
 # docker build --tag mermaid-server:latest .
+# docker run -d --name mermaid-server -p 5080:80 mermaid-server:latest
