@@ -76,3 +76,6 @@ RUN chmod 0777 ./out
 
 CMD ["./app", "--mermaid=./node_modules/.bin/mmdc", "--in=./in", "--out=./out", "--puppeteer=./puppeteer-config.json", "--allow-all-origins=true"]
 
+
+
+# docker build --tag mermaid-server:latest .
